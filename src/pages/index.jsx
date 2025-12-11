@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen">
+
+{/* BAGIAN BANNER CTA */}
+
       <div className="text-center py-20 px-4">
         <h1 className="text-4xl font-bold mb-4">
           Discover Games Worldwide
@@ -20,6 +23,13 @@ export default function Home() {
           </Link>
         </div>
       </div>
+
+{/* CATEGORIES */}
+
+
+{/* end */}
+
+
     </div>
   );
 }
